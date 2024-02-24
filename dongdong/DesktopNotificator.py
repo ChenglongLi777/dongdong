@@ -22,6 +22,8 @@ class DesktopNotificator:
         This class will configure the settings for desktop notification.
         :param taskname:
         :param title: title of the message
+
+        You can set self.startmsg，self.completemsg and self.crashmsg via a string list to change the push information of the monitor
         '''
         self.taskname = taskname
         self.title = title
