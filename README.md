@@ -53,7 +53,7 @@ def test_push():
                   body=f' Train loss: {0.0001}, Val loss: {0.0000}', isArchive=1)
 ```
 
-![image](/assets/CleanShot 2024-02-24 at 19.53.49-8775737-8775743-8775753-8775759.gif)
+![image](/assets/gif.gif)
 
 If you want to push your message when the script starts running, ends or stops with an error, you can set `startmsg`, `complete` or `crashmsg` attribute.
 
