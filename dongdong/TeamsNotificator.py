@@ -18,6 +18,17 @@ from .configure import teams_user_mentions, teams_webhook, DATE_FORMAT
 
 class TeamsNotificator:
     def __init__(self, webhook: str = None, taskname=None, user_mentions: [str] = []):
+        '''
+        This class will configure the settings for Teams notification.
+        :param webhook:
+            The webhook URL to access your slack room.
+            Visit https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors-using for more details.
+        :param taskname:
+        :param user_mentions:
+            Optional users ids to notify.
+            
+        You can set self.startmsg，self.completemsg and self.crashmsg via a string list to change the push information of the monitor
+        '''
         if not webhook:
             webhook = teams_webhook
         if not user_mentions:
