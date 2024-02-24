@@ -35,7 +35,7 @@ setconfigures(bark_token=bark_token)
 
 This service can only be used for iOS devices as Bark is iOS only. Get the Key in Bark as bark_token.
 
-![image-20240224175836304](/Volumes/Data/OneDrive - Kazumi/Project/20240223-DongDong_Package/assets/image-20240224175836304.png)
+![image](/assets/image-20240224175836304.png)
 
 ```python
 from dongdong import BarkNotificator
