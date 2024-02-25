@@ -1,6 +1,6 @@
 # dongdong
 
-This package is used to push messages when your python script is running or when it crashes during the process with three additional lines of code. This package reference [knickknack](https://github.com/huggingface/knockknock).
+This package is used to push messages when your python script is running or when it crashes during the process with three additional lines of code. This package reference [knockknock](https://github.com/huggingface/knockknock).
 
 When running large scripts, such as training deep learning models, we often don't know how long it will take to finish. If you're running on a server, you may need to log in from time to time to check the status of the run, and you'll waste a lot of time if something goes wrong while the script is running. Therefore, it is important to have scripts that automatically notify you when they finish running or stop with an error. What's more, it would be nice to be able to push the training results for each epoch.
 
