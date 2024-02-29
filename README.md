@@ -11,7 +11,7 @@ The package can monitor the running status of the script. Notifications will be 
 Install with `pip`.
 
 ```bash
-pip install knockknock
+pip install dongdong
 ```
 
 This code has only been tested with Python >= 3.6.
@@ -71,7 +71,7 @@ For `push` function, you can set `level` to set push interruption level:
 
 - active: default value, the system will immediately light up the screen to display notifications
 - timeSensitive: time-sensitive notifications, you can display notifications in a focused state
-- Passive: only add notifications to the notification list, will not light up the screen to remind
+- passive: only add notifications to the notification list, will not light up the screen to remind
 
 ### DingTalk
 
